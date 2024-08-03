@@ -3,13 +3,24 @@ import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import CustomButton from "./CustomButton";
 
 export default function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+      className={cn(
+        "fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 text-sm tracking-tight",
+        className
+      )}
     >
+      <CustomButton
+        href="/login"
+        iconRight="/assets/login.svg"
+        className="absolute z-30 right-6 top-[50%] -translate-y-[50%]"
+      >
+        Login
+      </CustomButton>
       <Link
         href="/"
         className="absolute left-8 top-[50%] z-50 -translate-y-[50%]"
@@ -21,7 +32,7 @@ export default function Navbar({ className }: { className?: string }) {
           Home
         </Link>
         <MenuItem setActive={setActive} active={active} item="Categories">
-          <div className="  text-sm grid grid-cols-2 gap-10 p-4">
+          <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <ProductItem
               title="Software"
               href="#"
