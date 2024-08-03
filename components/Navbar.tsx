@@ -4,7 +4,11 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import CustomButton from "./CustomButton";
+<<<<<<< HEAD
 import Image from "next/image";
+=======
+import { Divide as Hamburger } from "hamburger-react";
+>>>>>>> 78e4a76dee2753fcf142f9756d9e261e98d7d91d
 
 export default function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
