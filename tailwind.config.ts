@@ -7,7 +7,18 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {},
+    colors: {
+      blackish: "#0E1023",
+      "blue-1": "#101548",
+      whitish: "#F2F1F5",
+      "blue-2": "#212783",
+      greyish: "#72768E",
+      "purple-1": "#4544BE",
+      "purple-2": "#8E95F2",
+      "blue-3": "#98C0F8",
+      "green-1": "#29AB78",
+      "green-2": "#51B39C",
+    },
     fontFamily: {},
     extend: {},
     screens: {
