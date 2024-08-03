@@ -4,6 +4,7 @@ import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
 import CustomButton from "./CustomButton";
+import Image from "next/image";
 
 export default function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -70,9 +71,6 @@ export default function Navbar({ className }: { className?: string }) {
           <Link href="#about" className="hover:opacity-[0.7]">
             About
           </Link>
-        </div>
-        <div>
-          <MenuItem setActive={setActive} active={active} item=""></MenuItem>
         </div>
 
         <Link className="text-green-1 hover:text-green-2 sms:hidden" href="#">
