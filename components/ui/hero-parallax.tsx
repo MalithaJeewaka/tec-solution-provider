@@ -9,6 +9,7 @@ import {
 } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import { FlipWordsDemo } from "../FlipWordsDemo";
 
 export const HeroParallax = ({
   products,
@@ -57,7 +58,7 @@ export const HeroParallax = ({
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[300vh] py-40 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -103,16 +104,18 @@ export const HeroParallax = ({
 
 export const Header = () => {
   return (
-    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full left-0 top-0 flex justify-between items-center gap-5">
+    <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-10 w-full left-0 top-0 flex justify-between items-center gap-5 z-50">
       <div className="flex-1">
-        <h1 className="text-5xl md:text-7xl font-bold dark:text-white">
+        {/* <h1 className="text-5xl md:text-7xl font-bold dark:text-white">
           The Ultimate <br /> development studio
-        </h1>
+        </h1> */}
+        <FlipWordsDemo />
 
-        <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-          We build beautiful products with the latest technologies and
-          frameworks. We are a team of passionate developers and designers that
-          love to build amazing products.
+        <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-silver-1">
+          We offer innovative solutions tailored to your needs using the latest
+          technologies and frameworks. Our team of expert developers and
+          designers is dedicated to delivering high-quality, customized services
+          that help your business thrive.
         </p>
       </div>
       <div className="flex-1 flex items-center justify-center">

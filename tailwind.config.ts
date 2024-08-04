@@ -46,6 +46,8 @@ const config = {
         "green-1": "#29AB78",
         "green-2": "#51B39C",
         "green-3": "#2DD98F",
+        "silver-1": "#95A1B4",
+        "silver-2": "#EBF7FD",
       },
 
       keyframes: {

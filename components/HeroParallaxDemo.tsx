@@ -8,80 +8,80 @@ export function HeroParallaxDemo() {
 export const products = [
   {
     title: "Moonbeam",
-    link: "https://gomoonbeam.com",
+    link: "#",
     thumbnail: "/navbarImages/software.jpg",
   },
   {
     title: "Cursor",
-    link: "https://cursor.so",
+    link: "#",
     thumbnail: "/navbarImages/hardware.jpg",
   },
   {
     title: "Rogue",
-    link: "https://userogue.com",
+    link: "#",
     thumbnail: "/navbarImages/iot.jpg",
   },
 
   {
     title: "Editorially",
-    link: "https://editorially.org",
+    link: "#",
     thumbnail: "/navbarImages/automation.jpg",
   },
   {
     title: "Editrix AI",
-    link: "https://editrix.ai",
+    link: "#",
     thumbnail: "/navbarImages/software.jpg",
   },
   {
     title: "Pixel Perfect",
-    link: "https://app.pixelperfect.quest",
+    link: "#",
     thumbnail: "/navbarImages/hardware.jpg",
   },
 
   {
     title: "Algochurn",
-    link: "https://algochurn.com",
+    link: "#",
     thumbnail: "/navbarImages/iot.jpg",
   },
   {
     title: "Aceternity UI",
-    link: "https://ui.aceternity.com",
+    link: "#",
     thumbnail: "/navbarImages/automation.jpg",
   },
   {
     title: "Tailwind Master Kit",
-    link: "https://tailwindmasterkit.com",
+    link: "#",
     thumbnail: "/navbarImages/software.jpg",
   },
   {
     title: "SmartBridge",
-    link: "https://smartbridgetech.com",
+    link: "#",
     thumbnail: "/navbarImages/hardware.jpg",
   },
   {
     title: "Renderwork Studio",
-    link: "https://renderwork.studio",
+    link: "#",
     thumbnail: "/navbarImages/iot.jpg",
   },
 
   {
     title: "Creme Digital",
-    link: "https://cremedigital.com",
+    link: "#",
     thumbnail: "/navbarImages/automation.jpg",
   },
   {
     title: "Golden Bells Academy",
-    link: "https://goldenbellsacademy.com",
+    link: "#",
     thumbnail: "/navbarImages/software.jpg",
   },
   {
     title: "Invoker Labs",
-    link: "https://invoker.lol",
+    link: "#",
     thumbnail: "/navbarImages/hardware.jpg",
   },
   {
     title: "E Free Invoice",
-    link: "https://efreeinvoice.com",
+    link: "#",
     thumbnail: "/navbarImages/iot.jpg",
   },
 ];
