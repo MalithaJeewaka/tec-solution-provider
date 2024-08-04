@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="min-h-[100vh] flex items-center justify-center mx-auto ">
+    <main className="min-h-[100vh]">
       <HeroParallaxDemo />
     </main>
   );
